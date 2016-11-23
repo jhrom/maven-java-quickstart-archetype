@@ -20,5 +20,6 @@ mvn clean install
 mvn archetype:generate -DgroupId={your_project_group}
    -DartifactId={your_artifact_Id}
    -DarchetypeArtifactId=maven-java8-quickstart-archetype
-   -DinteractiveMode=false
+   -DarchetypeGroupId=pl.jhrom.archetype
+   -DarchetypeVersion=1.0.1
 ```
